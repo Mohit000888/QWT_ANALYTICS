@@ -1,0 +1,16 @@
+version: 2
+
+seeds:
+  - name: lkp_division
+    config:
+      column_types:
+        divisionname: varchar(50)
+      schema: lookup
+
+  - name: lkp_categories
+    config:
+      schema: lookup
+
+  - name: lkp_shippers
+    config:
+      schema: lookup

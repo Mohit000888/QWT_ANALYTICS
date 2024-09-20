@@ -1,0 +1,17 @@
+version: 2
+ 
+sources:
+  - name: qwt_src
+    database: qwt_analytics  
+    schema: raw  
+    tables:
+      - name: products
+      - name: customers
+      - name: employee
+      - name: orders
+      - name: orders_details
+      - name: office
+      - name: shipments
+      - name: suppliers
+
+ 
